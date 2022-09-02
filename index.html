@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="container">
+    <section class="sec01">
+      <h1>Learn to code by watching others</h1>
+
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p> 
+    </section>
+
+    <section class="sec02">
+      <p id="head-form"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      <div id="formulary">
+        <form id="form-container">
+          
+          <div class="field-form">
+            <input type="text" id="first-name" placeholder="First Name"><br>
+            <div class="img-error"><img src="images/icon-error.png" alt="icon-error"></div>
+            <div class="img-success"><img src="images/success-icon.png" alt="icon-success"></div>
+            <p>First Name cannot be empty</p>
+          </div>
+          
+          <div class="field-form">
+            <input type="text" id="last-name" placeholder="Last Name"><br>
+            <div class="img-error"><img src="images/icon-error.png" alt="icon-error"></div>
+            <div class="img-success"><img src="images/success-icon.png" alt="icon-success"></div>
+            <p>Last Name cannot be empty</p>
+          </div>
+
+          <div class="field-form">
+            <input type="email" id="email" placeholder="Email Address"><br>
+            <div class="img-error"><img src="images/icon-error.png" alt="icon-error"></div>
+            <div class="img-success"><img src="images/success-icon.png" alt="icon-success"></div>
+            <p>Looks like this is not an email</p>
+          </div>
+
+          <div class="field-form">
+            <input type="password" id="password" placeholder="Password"><br>
+            <div class="img-error"><img src="images/icon-error.png" alt="icon-error"></div>
+            <div class="img-success"><img src="images/success-icon.png" alt="icon-success"></div>
+            <p>Password cannot be empty</p>
+          </div>
+
+          <button>Claim your free trial</button>
+        </form>
+        
+        <p id="term">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>  
+      </div>
+    </section>
+  </main>
+
+  <script src="JS/inter.js"></script>
+</body>
+</html>
